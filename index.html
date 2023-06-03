@@ -16,7 +16,7 @@
 
 <body>
     <!-- NAVEGACION -->
-    <header class="header">
+    <header id="navbar" class="static header">
         <nav class="nav">
             <a href="index.html" class="nav-link"><img src="img/logo.png" alt="logo_pagina" class="logo"></a>
             <button class="nav-toggle" aria-label="Abrir menú">
@@ -27,22 +27,184 @@
                     <a href="#inicio" class="nav-menu-link nav-link">Inicio</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="nosotros.html" class="nav-menu-link nav-link">Quiénes Somos</a>
+                    <a href="#servicios" class="nav-menu-link nav-link">Servicios</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="servicios.html" class="nav-menu-link nav-link">Servicios</a>
+                    <a href="#nosotros" class="nav-menu-link nav-link">Quiénes Somos</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#" class="nav-menu-link nav-link">Blog</a>
-                </li>
-                <li class="nav-menu-item">
-                    <a href="#contacto" class="nav-menu-link nav-link nav-menu-link_active">Contacto</a>
+                    <a href="#contacto" class="nav-menu-link nav-link">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
 
+    <main>
+        <section id="inicio">
+            <div class="contenido">
+                <div>
+                    <h1>Actas <strong>Italianas</strong> y <br> Ciudadanía</h1>
+                </div>
+                <div>
+                    <h2>¿Querés saber si te corresponde reclamar la ciudadanía italiana y mediante qué vía?</h2>
+                    <a href="#">
+                        <button type="button">Realizar cuestionario</button>
+                    </a>
+                </div>
+            </div>
+        </section>
 
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicio">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h3>Investigación genealógica</h3>
+                            <i class="fa-solid fa-circle-plus" style="color: #ff0000;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Solicitud de actas en Italia</h3>
+                            <i class="fa-solid fa-circle-plus" style="color: #ff0000;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Solicitud de actas en Italia, modalidad EXPRESS</h3>
+                            <i class="fa-solid fa-circle-plus" style="color: #ff0000;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Apostillas en Italia</h3>
+                            <i class="fa-solid fa-circle-plus" style="color: #ff0000;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Asseverazione en Italia</h3>
+                            <i class="fa-solid fa-circle-plus" style="color: #ff0000;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Revisión de carpetas</h3>
+                            <i class="fa-solid fa-circle-plus" style="color: #ff0000;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Acompañamiento en Italia</h3>
+                            <i class="fa-solid fa-circle-plus" style="color: #ff0000;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Ciudadanía italiana por vía judicial</h3>
+                            <i class="fa-solid fa-circle-plus" style="color: #ff0000;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>Traducciones al italiano</h3>
+                            <i class="fa-solid fa-circle-plus" style="color: #ff0000;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <div class="contenedor">
+                <h3 onclick="toggleContent()">¡Hola, somos Lucila y Nicasio!</h3>
+                <i onclick="toggleContent()" class="fa-solid fa-circle-down" style="color: #ff0000;"></i>
+                <div id="content" class="content">
+                    <p>
+                        Ambos nacidos en Argentina, de un pueblo llamado Saladillo, en la provincia de Buenos Aires.
+                        Ahora, vivimos en un pueblo muy chiquito en el límite entre la región Toscana y Lazio. Llegamos
+                        a tener dos trabajos cada uno para poder lograr nuestro sueño de hacer nuestra ciudadanía en
+                        Italia. Al mismo tiempo yo me encargaba de armar la carpeta de ambos. <br> Llegamos el
+                        18-6-2019,
+                        sin saber donde íbamos a hacer el trámite y sin tener lugar para fijar la residencia, perdimos
+                        mucho tiempo y dinero. No fue fácil encontrar residencia ni comuna, estuvimos en Roma un
+                        mes, y ahí se nos fue mucho dinero en hospedaje, los fines de semana escapabamos de Roma
+                        en busca de alguna comuna aledaña más pequeña y alejada del caos. <br> Un día, encontramos en
+                        Facebook un grupo donde una chica prestaba una casita, solo por amor a conocer viajeros, para
+                        nuestra suerte, hablaba español, nuestra querida Paola, fue nuestra salvadora, gracias a ella
+                        conocimos gente que nos ayudó mucho, ella fue el hilo conector a todo, nos hizo de traductora,
+                        nos acompañó a dos comunas a preguntar sobre el trámite, me ayudó a conseguir trabajo y
+                        también el lugar para fijar residencia, y todo solo por tener un enorme corazón. Firmamos
+                        contrato de alquiler el 15 de agosto, nos acercamos a la comuna, no querían hacernos la
+                        residencia sin permesso di soggiorno, algo que todos sabemos no es necesario, pero según
+                        ellos, como no tienen vigile, la residencia tarda 45 días en fijarse, a nosotros nos quedaban 30
+                        para que se terminen los 90 días de turistas que otorga el pasaporte argentino. A todo esto yo
+                        ya trabajaba en un agriturismo, de ayudante de cocina y camarera (ahí aprendí el idioma
+                        Italiano)
+                        la comuna estaba al tanto que trabaja en ese agriturismo, es un pueblo de 1000 habitantes, se
+                        conocen todos. Cuestión que fui con la circolare k28, le discutí al funcionario en todos los
+                        colores, y la respuesta siempre era negativa. No logramos que inicien con el procedimiento de la
+                        ciudadanía, a los días, mi jefe, cansado de ésto, llama al funcionario responsable, que
+                        obviamente lo conocía, y lo amenaza con una denuncia legal, al día siguiente, iniciaron la
+                        práctica. <br> El 12 de septiembre presentamos carpeta, e hicimos el permesso di soggiorno. El 5
+                        de
+                        diciembre me llaman para decirme que era ciudadana Italiana 🥳.
+                        El 15 de enero a un agriturismo HERMOSO, en la montaña, donde vivimos ahora, en una fracción
+                        de pueblo que solamente tiene 20 habitantes, en nuestra casa estuvo Galileo Galilei haciendo
+                        una cuarentena 😲. <br> Hoy tenemos un lugar privilegiado, hermoso, y pese a las dificultades,
+                        logramos nuestros cometidos! En el medio nos convertimos en ma/padres, un desafío maravilloso,
+                        en otro país y lejos de casa. <br> Hoy, decidimos quedarnos en Italia por varias razones, hace
+                        ya un año y medio creé mi emprendimiento como Gestoría de Ciudadanías Italianas, ayudando desde
+                        mi experiencia y aprendizaje a que otros puedan cumplir su sueño, porque yo estuve en ese lugar
+                        complicado y porque hacer la ciudadanía no es fácil, pero tampoco imposible. Elegimos
+                        quedarnos por la estabilidad económica, la posibilidad de crecer, de proyectar y la seguridad en
+                        las calles. <br> Ser mujer y caminar tranquila no tiene precio, mi hija también merece caminar
+                        sin miedo. Si todavía no empezaste a hacer tu ciudadanía o tenes miedo de emigrar, ANÍMATE, VAS
+                        A PODER! Solo tenés que luchar, las oportunidades llegan, pero hay que moverse en busca de
+                        ellas.
+                    </p>
+                </div>
+            </div>
+            <img src="img/nosotros.jpg" alt="foto_pareja">
+        </section>
+
+        <section id="contacto">
+            <h3 class="titulo-seccion">Contacto</h3>
+            <div class="contenedor-form">
+                <form action="https://formsubmit.co/roncoronitprog@gmail.com" method="POST">
+                    <div class="fila mitad">
+                        <input name="nombre" type="text" placeholder="Nombre Completo *" class="input-mitad" required>
+                        <input name="correo" type="email" placeholder="Dirección de Email" class="input-mitad" required>
+                    </div>
+                    <div class="fila">
+                        <input name="tema" type="text" placeholder="Tema..." class="input-full" required>
+                    </div>
+                    <div class="fila">
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Tu Mensaje..."
+                            class="input-full" required></textarea>
+                    </div>
+
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://trprogramacion.netlify.app/">
+                </form>
+
+            </div>
+        </section>
+
+        <a href="https://wa.me/+393703699087" target="_blank" rel="nofollow" class="whatsapp-icon">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </main>
+
+    <footer>
+        <h3>Contacta con nosotros hoy!</h3>
+        <h4>Whatsapp: +39 370 369 9087</h4>
+        <h4>Email: actasitalianasyciudadanias@gmail.com</h4>
+    </footer>
     <!-- SCRIPTS -->
     <script src="js/main.js"></script>
 </body>
