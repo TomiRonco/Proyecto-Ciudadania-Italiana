@@ -137,3 +137,13 @@ footer h3 {
 footer h4 {
     text-align: left;
 }
+
+/* Icono WhatsApp */
+.whatsapp-icon {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 9999;
+    font-size: 50px;
+    color: #25D366;
+}
