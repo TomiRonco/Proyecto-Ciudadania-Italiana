@@ -8,7 +8,7 @@
     <title>Actas Italianas y Ciudadanía | Gestión Optimizada</title>
     <!-- LINKS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/investigacion.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <!-- SCRIPT -->
     <script src="https://kit.fontawesome.com/c9a1ba4d77.js" crossorigin="anonymous"></script>
@@ -40,13 +40,45 @@
     </header>
 
     <main>
-        <section id="formulario">
-            <h2>¿Querés saber si te corresponde reclamar la ciudadanía <br> italiana y mediante qué vía?</h2>
-            <h3>Realizá el cuestionario y recibirás una respuesta.</h3>
+        <section id="investigacion">
+            <h2>Solicitud de actas en Italia, modalidad EXPRESS</h2>
 
-            <div class="contenido">
-                
-            </div>
+
+            <h3>
+                A veces necesitamos un acta
+                con mucha urgencia y los tiempos de una solicitud tradicional no va de acuerdo con
+                nuestra necesidad. En éste caso vamos personalmente a retirar el acta a la comuna
+                o parroquia y la enviamos por correo, el cliente puede elegir un método normal de
+                envío o una mensajería privada que demora mucho menos. <br><br> El valor de la solicitud
+                express con envío normal es de 250€ y demora entre 21 y 40 días hábiles.
+                El valor de la solicitud express con DHL es de 290€ y demora entre 10 y 15 días
+                hábiles.
+            </h3>
+            <form id="form" action="">
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" name="nombre" id="nombre">
+
+                <label for="email">Correo Electrónico</label>
+                <input type="email" name="email" id="email">
+
+                <label for="avo">Nombre Completo del AVO</label>
+                <input type="text" name="avo" id="avo">
+
+                <label for="conyuge">Nombre del o la cónyuge</label>
+                <input type="text" name="conyuge" id="conyuge">
+
+                <label for="nacimiento_año">Año de nacimiento o matrimonio</label>
+                <input type="text" name="nacimiento" id="nacimiento">
+
+                <label for="nacimiento_lugar">Lugar de nacimiento exacto</label>
+                <input type="text" name="nacimiento_lugar" id="nacimiento_lugar">
+
+                <label for="nombre_padres">Nombre de su o sus padres</label>
+                <input type="text" name="nombre_padres" id="nombre_padres">
+
+                <input type="button" value="Enviar">
+            </form>
+
         </section>
 
         <!-- Icono WhatsApp -->
