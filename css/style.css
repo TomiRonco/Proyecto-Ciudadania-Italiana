@@ -139,6 +139,11 @@ footer h4 {
     text-decoration: none;
 }
 
+.redes a{
+    font-size: 30px;
+    padding: 0 20px;
+}
+
 @media (max-width: 768px) {
     footer h3 {
         font-size: 20px;
