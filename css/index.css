@@ -35,10 +35,11 @@
         max-width: 300px;
         margin: auto;
     }
+
     .contenido h1 {
         font-size: 30px;
     }
-    
+
     .contenido h2 {
         font-size: 18px;
     }
@@ -83,14 +84,14 @@
     #servicios {
         width: 80%;
     }
-    
+
     #servicios h2 {
         font-size: 20px;
     }
-    
+
     #servicios .servicio a {
         font-size: 12px;
-    
+
         gap: 70px;
     }
 }
@@ -157,21 +158,21 @@
     #nosotros {
         width: 80%;
     }
-    
+
     #nosotros h2 {
         font-size: 20px;
     }
-    
+
     .contenedor h3 {
         text-align: center;
         font-size: 15px;
     }
 
-    
+
     .content p {
         font-size: 13px;
     }
-    
+
     .content.expand {
         max-height: 2500px;
     }
@@ -242,5 +243,9 @@
     #contacto .contenedor-form {
         max-width: 90%;
         margin: auto;
+    }
+
+    #contacto .titulo-seccion {
+        font-size: 20px;
     }
 }
