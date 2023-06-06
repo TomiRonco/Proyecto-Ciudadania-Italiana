@@ -138,12 +138,29 @@ footer h4 {
     text-align: left;
 }
 
+@media (max-width: 768px) {
+    footer h3 {
+        font-size: 20px;
+    }
+
+    footer h4 {
+        font-size: 14px;
+    }
+}
+
 /* Icono WhatsApp */
 .whatsapp-icon {
     position: fixed;
-    right: 40px;
-    bottom: 40px;
+    right: 50px;
+    bottom: 50px;
     z-index: 9999;
     font-size: 50px;
     color: #25D366;
+}
+
+@media (max-width: 768px) {
+    .whatsapp-icon {
+        right: 10px;
+        bottom: 10px;
+    }
 }

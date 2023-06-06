@@ -9,7 +9,7 @@
 }
 
 #inicio .contenido {
-    max-width: 900px;
+    max-width: 1000px;
 
     margin: auto;
 }
@@ -26,21 +26,22 @@
 
     font-size: 25px;
     font-weight: normal;
-    
+
     margin: 30px 0;
 }
 
-.contenido button {
-    cursor: pointer;
-    background-color: rgba(255, 0, 0, .7);
-
-    border: none;
-    border-radius: 10px;
-
-    padding: 10px 25px;
-
-    color: #000;
-    font-size: 16px;
+@media (max-width: 768px) {
+    #inicio .contenido {
+        max-width: 300px;
+        margin: auto;
+    }
+    .contenido h1 {
+        font-size: 30px;
+    }
+    
+    .contenido h2 {
+        font-size: 18px;
+    }
 }
 
 /* Servicios */
@@ -76,6 +77,22 @@
 
     gap: 100px;
     margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    #servicios {
+        width: 70%;
+    }
+    
+    #servicios h2 {
+        font-size: 20px;
+    }
+    
+    #servicios .servicio a {
+        font-size: 12px;
+    
+        gap: 70px;
+    }
 }
 
 /* Nosotros */
@@ -134,6 +151,30 @@
 .content.expand {
     max-height: 1500px;
     transition: max-height 2s ease-in;
+}
+
+@media (max-width:768px) {
+    #nosotros {
+        width: 80%;
+    }
+    
+    #nosotros h2 {
+        font-size: 20px;
+    }
+    
+    .contenedor h3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    
+    .content p {
+        font-size: 13px;
+    }
+    
+    .content.expand {
+        max-height: 2500px;
+    }
 }
 
 /* Contacto */
@@ -195,4 +236,11 @@
 #contacto .btn-enviar:hover {
     background-color: #ff5080;
     color: #fff;
+}
+
+@media (max-width:768px) {
+    #contacto .contenedor-form {
+        max-width: 90%;
+        margin: auto;
+    }
 }
